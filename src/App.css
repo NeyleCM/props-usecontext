@@ -29,6 +29,7 @@ button {
   border: 1px solid black;
   border-radius: 15px;
   box-shadow: 2px 4px 6px;
+  background-color: #e0e0e093;
   padding: 25px;
   text-align: center;
   margin-top: 50px;
