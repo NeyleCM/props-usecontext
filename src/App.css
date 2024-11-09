@@ -26,6 +26,10 @@ button {
 }
 
 .calculator, .result {
+  border: 1px solid black;
+  border-radius: 15px;
+  box-shadow: 2px 4px 6px;
+  padding: 25px;
   text-align: center;
   margin-top: 50px;
 }
@@ -76,7 +80,7 @@ a:hover {
   font-size: 1.2em;
   padding: 8px 12px;
   border-radius: 50%;
-  background-color: #4caf50;   
+  background-color: #4cafa2;   
   color: #fff;
   display: inline-block;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
