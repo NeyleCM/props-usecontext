@@ -1,4 +1,3 @@
-/* App.css */
 .App {
   display: flex;
   justify-content: center;
@@ -56,8 +55,7 @@ a:hover {
 }
 
 .display {
-  font-size: 2.5em;            /* Tamaño de fuente grande para el número actual */
-  padding: 10px;
+  font-size: 2.5em;       
   margin-bottom: 20px;
   color: #333;
   background-color: #e0e0e0;
@@ -78,13 +76,12 @@ a:hover {
   font-size: 1.2em;
   padding: 8px 12px;
   border-radius: 50%;
-  background-color: #4caf50;   /* Verde para destacar */
+  background-color: #4caf50;   
   color: #fff;
   display: inline-block;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
 }
 
-/* Estilo para el resultado total */
 .total-result {
   font-size: 2em;
   color: #333;

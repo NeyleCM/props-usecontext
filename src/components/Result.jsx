@@ -24,3 +24,11 @@ const Result = () => {
 };
 
 export default Result;
+
+/*
+   <div className="selected-numbers">
+        <span className="number-bubble">
+            {numbers.join(' + ')}
+        </span>
+      </div>
+       */
