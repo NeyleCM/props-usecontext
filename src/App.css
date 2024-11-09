@@ -25,3 +25,73 @@ button {
 .result {
   margin-top: 20px;
 }
+
+.calculator, .result {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.button-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  max-width: 200px;
+  margin: 0 auto;
+}
+
+button {
+  padding: 15px;
+  font-size: 18px;
+}
+
+a {
+  display: block;
+  margin-top: 20px;
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.display {
+  font-size: 2.5em;            /* Tamaño de fuente grande para el número actual */
+  padding: 10px;
+  margin-bottom: 20px;
+  color: #333;
+  background-color: #e0e0e0;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.selected-numbers {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+.number-bubble {
+  font-size: 1.2em;
+  padding: 8px 12px;
+  border-radius: 50%;
+  background-color: #4caf50;   /* Verde para destacar */
+  color: #fff;
+  display: inline-block;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
+}
+
+/* Estilo para el resultado total */
+.total-result {
+  font-size: 2em;
+  color: #333;
+  margin-top: 20px;
+}
+
+.reset {
+  width: 100px;
+  height: 50px;
+}

@@ -1,8 +1,20 @@
+import React from 'react';
 import './App.css';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { CalculatorProvider } from './components/CalculatorProvider';
+import Calculator from './components/Calculator';
+import Result from './components/Result';
 
 function App() {
   return (
-    <></>
+    <CalculatorProvider>
+      <Router>
+        <Routes>
+          <Route path="/" element={<Calculator />} />
+          <Route path="/resultado" element={<Result />} />
+        </Routes>
+      </Router>
+    </CalculatorProvider>
   );
 }
 
